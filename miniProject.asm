@@ -77,7 +77,7 @@ validOpcode:
 	addi	$t7, $zero, 50 #2
 	addi	$t6, $zero, 51 #3
 	addi	$t5, $zero, 52 #4
-Cmp: # kiem tra dang cua tung toan hang v‡ check
+Cmp: # kiem tra dang cua tung toan hang v√† check
 	slti	$t0, $s5, 3
 	beq	$t0, $zero, end
 	#-----------lay toan hang 1
@@ -300,7 +300,7 @@ endF:
 #--------------------------------------------------------
 # lay khuon dang toan hang ung voi opcode
 # a0 address chuoi operand - vi tri tuong ung voi opcode, a1 count
-# tra ve chuoi opcode tuong ung ı tmp2 =
+# tra ve chuoi opcode tuong ung √µ tmp2 =
 #--------------------------------------------------------
 getOperand: 
 	addi	$sp, $sp, -20
